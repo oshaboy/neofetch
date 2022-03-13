@@ -1605,7 +1605,8 @@ get_packages() {
             has kagami  && dir "/var/lib/kagami/pkgs/*"
             has cave    && dir "/var/db/paludis/repositories/cross-installed/*/data/*/ \
                                /var/db/paludis/repositories/installed/data/*/"
-            shopt -u nullglob
+            has hardman && dir "/var/hpkg/packages/*"
+	    shopt -u nullglob
             }
 
             # Other (Needs complex command)
@@ -5162,7 +5163,7 @@ ASCII:
                                 DracOS, DarkOs, Itc, DragonFly, Drauger, Elementary, EndeavourOS, Endless,
                                 EuroLinux, Exherbo, Fedora, Feren, FreeBSD, FreeMiNT, Frugalware,
                                 Funtoo, GalliumOS, Garuda, Gentoo, Pentoo, gNewSense, GNOME, GNU,
-                                GoboLinux, Grombyang, Guix, Haiku, Huayra, Hyperbola, iglunix, janus, Kali,
+                                GoboLinux, Grombyang, Guix, Haiku, HarDClanZ, Huayra, Hyperbola, iglunix, janus, Kali,
                                 KaOS, KDE_neon, Kibojoe, Kogaion, Korora, KSLinux, Kubuntu, LEDE,
                                 LaxerOS, LibreELEC, LFS, Linux_Lite, LMDE, Lubuntu, Lunar, macos,
                                 Mageia, MagpieOS, Mandriva, Manjaro, TeArch, Maui, Mer, Minix, Linspire, LinuxMint,
@@ -5593,6 +5594,30 @@ ${c1}
     ###   ######   ###
       ~   ######   ~
 
+EOF
+        ;;
+        "HarDClanZ"*)
+            set_colors 4 7 1
+            read -rd '' ascii_data <<'EOF'
+${c1}          ........::::....
+        ::################::..
+      :########################:.
+     :######**###################:
+    :###${c2}&&&&^${c1}############ ${c2}&${c1}#######:
+   :#${c2}&&&&&${c1}.:##############:${c2}^&o${c1}`:###:
+  :#${c2}&&&&${c1}.:#################:.${c2}&&&${c1}`###:
+ :##${c2}&^${c1}:######################:${c2}^&&${c1}::##:
+ :#############################:${c2}&${c1}:##::
+ :##########${c2}@@${c1}###########${c2}@@${c1}#####:.###:
+:#########${c2}@@${c3}o${c2}@@${c1}#########${c2}@@${c3}o${c2}@@${c1}########:
+:#######:${c2}@@${c3}o${c5}0${c3}o${c2}@@@@${c1}###${c2}@@@@${c3}o${c5}0${c3}o${c2}@@${c1}######: :
+ :######:${c2}@@@${c3}o${c2}@@@@@@${c1}V${c2}@@@@@@${c3}o${c2}@@@${c1}######:
+   :#####:${c2}@@@@@@@@@@@@@@@@@@@${c1}:####;
+    :####:.${c2}@@@@@@@@@@@@@@@@${c1}:#####:
+    `:####:.${c2}@@@@@@@@@@@@@@${c1}:#####:
+      ``:##:.${c2}@@@@@@@@@@@@${c1}^## # :
+         : ##  ${c2}\@@@;@@@/ ${c1}:: # :
+                 ${c2} VVV
 EOF
         ;;
 
