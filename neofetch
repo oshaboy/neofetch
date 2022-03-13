@@ -806,7 +806,7 @@ image_source="auto"
 #       Solus, Source_Mage, Sparky, Star, SteamOS, SunOS, openSUSE_Leap, t2,
 #       openSUSE_Tumbleweed, openSUSE, SwagArch, Tails, Trisquel,
 #       Ubuntu-Cinnamon, Ubuntu-Budgie, Ubuntu-GNOME, Ubuntu-MATE,
-#       Ubuntu-Studio, Ubuntu, Univention, Venom, Void, VNux, LangitKetujuh, semc,
+#       Ubuntu-Studio, Ubuntu, Ultramarine, Univention, Venom, Void, VNux, LangitKetujuh, semc,
 #       Obarun, windows10, Windows7, Xubuntu, Zorin, and IRIX have ascii logos.
 # NOTE: Arch, Ubuntu, Redhat, Fedora and Dragonfly have 'old' logo variants.
 #       Use '{distro name}_old' to use the old logos.
@@ -5179,7 +5179,7 @@ ASCII:
                                 Solus, Source_Mage, Sparky, Star, SteamOS, SunOS, openSUSE_Leap,
                                 t2, openSUSE_Tumbleweed, openSUSE, SwagArch, Tails, Trisquel,
                                 Ubuntu-Cinnamon, Ubuntu-Budgie, Ubuntu-GNOME, Ubuntu-MATE,
-                                Ubuntu-Studio, Ubuntu, Univention, Venom, Void, VNux, LangitKetujuh, semc,
+                                Ubuntu-Studio, Ubuntu, Ultramarine, Univention, Venom, Void, VNux, LangitKetujuh, semc,
                                 Obarun, windows10, Windows7, Xubuntu, Zorin, and IRIX have ascii logos.
 
                                 NOTE: Arch, Ubuntu, Redhat, Fedora and Dragonfly have 'old' logo variants.
@@ -6384,7 +6384,7 @@ ${c2}        .oossssso-`${c3}//${c1}`/ossssss+`
 EOF
         ;;
 
-        "blackPanther"*|'blackpanther'*)
+        "BlackPanther"*)
             set_colors 1 11 12
             read -rd '' ascii_data <<'EOF'
 ${c3}
@@ -11162,15 +11162,15 @@ oss${c2}yNMMMNyMMh${c1}sssssssssssssshmmmh${c1}ssssssso
             .-\+oossssoo+/-.
 EOF
         ;;
-        "Ultramarine Linux"* | "ultramarine"*)
+        "Ultramarine"*)
             set_colors 4 7
             read -rd '' ascii_data <<'EOF'
-${c1}            .cd0NNNNNNNXOdc.            
-        .:xKNNNNNNNNNNNNNNNNKd;.        
-      ,dXNNNNNNNNNNNNNNNNNNNNNNNd,      
-    'ONNNNNNNNNNNNNNNNNNNNNNNNNNNNO'    
-  .xNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNk.  
- .0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0. 
+${c1}            .cd0NNNNNNNXOdc.
+        .:xKNNNNNNNNNNNNNNNNKd;.
+      ,dXNNNNNNNNNNNNNNNNNNNNNNNd,
+    'ONNNNNNNNNNNNNNNNNNNNNNNNNNNNO'
+  .xNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNk.
+ .0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.
 .0NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN0.
 dNNNNNNNNNNNNWWWWWWWWNNNNNNNNNNNNNNNNNNd
 NNNNNNNNNNNNNW${c2}MMMMMMMM${c1}WWNNNNNNNNNNNNNNNN
@@ -11178,13 +11178,13 @@ NNNNNNNNNNNNNNW${c2}MMMMMMMMM${c1}WWNNNNNNNNNNNNNN
 NNNNNNNNNNNNNNW${c2}MMMMMMMMMMMM${c1}WNNNNNNNNNNNN
 NNNNNNNNNNWWW${c2}MMMMMMMMMMMMMMMM${c1}WWWNNNNNNNX
 oNWWWW${c2}MMMMMMMMMMMMMMMMMMMMMMMMMMMM${c1}WWWNNo
- OW${c2}MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM${c1}WO 
- .OW${c2}MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM${c1}WO. 
-   lNW${c2}MMMMMMMMMMMMMMMMMMMMMMMMMMMM${c1}WNl   
-    .dNW${c2}MMMMMMMMMMMMMMMMMMMMMMMM${c1}WNd.    
-      .cKW${c2}MMMMMMMMMMMMMMMMMMMM${c1}WKc.      
-         'oOXWWW${c2}MMMMMMMM${c1}WWWXOl.         
-             ;lkXNNNNNNXkl'    
+ OW${c2}MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM${c1}WO
+ .OW${c2}MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM${c1}WO.
+   lNW${c2}MMMMMMMMMMMMMMMMMMMMMMMMMMMM${c1}WNl
+    .dNW${c2}MMMMMMMMMMMMMMMMMMMMMMMM${c1}WNd.
+      .cKW${c2}MMMMMMMMMMMMMMMMMMMM${c1}WKc.
+         'oOXWWW${c2}MMMMMMMM${c1}WWWXOl.
+             ;lkXNNNNNNXkl'
 EOF
         ;;
 

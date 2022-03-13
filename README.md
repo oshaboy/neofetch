@@ -6,6 +6,7 @@ Distro Ascii Art Added:
 blackPantherOS #1761
 HarDClanZ #1797
 Linspire #1905 
+Ultramarine #1880
 
 Fixes:
 Deleted a copy of IRIX #1850
