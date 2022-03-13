@@ -6,6 +6,7 @@ I added some pull requests that were in the original distro that neofetch team i
 blackPantherOS #1761  
 HarDClanZ #1797  
 Linspire #1905  
+Twister #1890  
 Ultramarine #1880  
 
 ## Fixes
