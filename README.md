@@ -9,6 +9,7 @@ Linspire #1905
 SerinityOS #1917
 Twister #1890  
 Ultramarine #1880  
+YiffOS #1920
 
 ## Fixes
 Deleted a copy of IRIX #1850
