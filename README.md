@@ -13,4 +13,5 @@ Wii Linux (wii-linux-ngx whiite-linux gc-linux) #1929
 YiffOS #1920  
 
 ## Fixes
-Deleted a copy of IRIX #1850
+Deleted a copy of IRIX #1850  
+Removed block characters from Trisquel #1946  
