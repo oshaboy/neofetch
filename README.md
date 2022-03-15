@@ -6,6 +6,7 @@ I added some pull requests that were in the original distro that neofetch team i
 blackPantherOS #1761  
 Elive #1957  
 HarDClanZ #1797  
+Kaisen Linux #1958  
 LangitKetujuh #1948  
 Linspire #1905  
 MassOS #1947  
