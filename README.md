@@ -11,7 +11,8 @@ Kaisen Linux #1958
 LangitKetujuh #1948  
 Linspire #1905  
 MassOS #1947  
-SerinityOS #1917
+SerinityOS #1917  
+Soda Linux #2023  
 Twister #1890  
 Ultramarine #1880  
 Wii Linux (wii-linux-ngx whiite-linux gc-linux) #1929  
