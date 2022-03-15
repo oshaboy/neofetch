@@ -5,6 +5,7 @@ I added some pull requests that were in the original distro that neofetch team i
 **AmogOS**  (Yes, that's why I started this) #1904  
 blackPantherOS #1761  
 Elive #1957  
+FusionX #2011  
 HarDClanZ #1797  
 Kaisen Linux #1958  
 LangitKetujuh #1948  
