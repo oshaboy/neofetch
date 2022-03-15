@@ -1747,7 +1747,6 @@ get_shell() {
         off) shell="${SHELL##*/} " ;;
     esac
 
-    [[ "$os" == SerenityOS ]] && shell="SerenityOS Shell "
 
     [[ $shell_version != on ]] && return
 
@@ -3360,7 +3359,6 @@ get_term() {
         *)              term="${TERM_PROGRAM/\.app}" ;;
     esac
 
-    [[ "$os" == SerenityOS ]] && term="SerenityOS Terminal"
 
     # Most likely TosWin2 on FreeMiNT - quick check
     [[ "$TERM" == "tw52" || "$TERM" == "tw100" ]] && term="TosWin2"
@@ -10556,7 +10554,7 @@ ${c1}              __---''''''---__
 EOF
         ;;
 
-        "SerenityOS"*)
+        "Serenity"*)
             set_colors 3 1 7 8 15
             read -rd '' ascii_data <<'EOF'
 ${c4}    _         __
