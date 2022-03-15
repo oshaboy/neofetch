@@ -8371,6 +8371,26 @@ EOF
 EOF
         ;;
 
+        "LangitKetujuh"*)
+            set_colors 4 2
+            read -rd '' ascii_data <<'EOF'
+${c1}
+. 'MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMML7
+MM.   'MMMMMMMMMMMMMMMMMMMMMMMMMMML7L7
+MMMMMM     MMMMMMML7L7L7L7L7L7L7L7L7L7
+L7MMMM                          L7L7L7
+L7L7MM           'L7L7L7L7L7L7L7L7L7L:
+L7L7L7               'L7L7L7L7L7L7L:::
+L7L7L7                   'L7L7L7::::::
+:7L7L7                          ::::::
+::L7L7L7L7L7L7L7L7L7L::::::.    ::::::
+:::::7L7L7L7L7L7:::::::::::::::.   '::
+:::::::::::::::::::::::::::::::::::. '
+${c2}
+
+EOF
+        ;;
+
         "LaxerOS"*)
             set_colors 7 4
             read -rd '' ascii_data <<'EOF'
@@ -11042,7 +11062,7 @@ ${c1}     """"     ${c2}d$$$$"'
              '$$$. '$b,,.  $$$
               '$$$.       .$$'
                'a$$$o._.o$$a'
-                  'a$$$$a' 
+                  'a$$$$a'
 EOF
         ;;
 
@@ -11425,27 +11445,6 @@ ${c1}        K00XNW${c2}      WX0xdooooooddddddd
                                   WN0d
 EOF
                 ;;
-
-        "LangitKetujuh"*)
-            set_colors 7 4
-            read -rd '' ascii_data <<'EOF'
-${c1}
-   L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L
-      'L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L
-   L7L.   'L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L
-   L7L7L7L                             L7L7L7L
-   L7L7L7L                             L7L7L7L
-   L7L7L7L             L7L7L7L7L7L7L7L7L7L7L7L
-   L7L7L7L                'L7L7L7L7L7L7L7L7L7L
-   L7L7L7L                    'L7L7L7L7L7L7L7L
-   L7L7L7L                             L7L7L7L
-   L7L7L7L                             L7L7L7L
-   L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L.   'L7L
-   L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L.
-   L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L7L
-${c2}
-EOF
-        ;;
 
        "semc"*)
             set_colors 2 8 1
