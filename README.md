@@ -5,6 +5,7 @@ I added some pull requests that were in the original distro that neofetch team i
 **AmogOS**  (Yes, that's why I started this) #1904  
 blackPantherOS #1761  
 HarDClanZ #1797  
+LangitKetujuh #1948  
 Linspire #1905  
 SerinityOS #1917
 Twister #1890  
