@@ -11489,7 +11489,7 @@ ${c1}                    ,;::::;
 EOF
         ;;
 
-        *"wii-linux-ngx"*|*"whiite-linux"*|*"gc-linux"*)
+        "Wii linux"*|"wii-linux-ngx"*|*"whiite-linux"*|*"gc-linux"*)
             set_colors 6 7
             read -rd '' ascii_data <<'EOF'
 ${c1}'''''''            `~;:`            -''''''   ~kQ@@g\      ,EQ@@g/
